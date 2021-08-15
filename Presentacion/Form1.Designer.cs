@@ -42,6 +42,7 @@ namespace Presentacion
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnViajes = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -159,7 +160,7 @@ namespace Presentacion
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.1573F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(237, 270);
+            this.label3.Location = new System.Drawing.Point(242, 365);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(617, 40);
             this.label3.TabIndex = 8;
@@ -169,7 +170,7 @@ namespace Presentacion
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 14.1573F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(64, 566);
+            this.label4.Location = new System.Drawing.Point(69, 661);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(1028, 40);
             this.label4.TabIndex = 9;
@@ -177,16 +178,26 @@ namespace Presentacion
             // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(62, 331);
+            this.panel2.Location = new System.Drawing.Point(67, 426);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1011, 200);
             this.panel2.TabIndex = 10;
+            // 
+            // btnViajes
+            // 
+            this.btnViajes.Location = new System.Drawing.Point(442, 239);
+            this.btnViajes.Name = "btnViajes";
+            this.btnViajes.Size = new System.Drawing.Size(208, 84);
+            this.btnViajes.TabIndex = 11;
+            this.btnViajes.Text = "Administrar Viajes";
+            this.btnViajes.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1153, 645);
+            this.ClientSize = new System.Drawing.Size(1153, 760);
+            this.Controls.Add(this.btnViajes);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -224,6 +235,7 @@ namespace Presentacion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button btnViajes;
     }
 }
 
